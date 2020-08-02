@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Definition" representedClassName=".Definition" syncable="YES" codeGenerationType="category">
+        <attribute name="soundURL" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Meaning" representedClassName=".Meaning" syncable="YES" codeGenerationType="category">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="partOfSpeechCode" optional="YES" attributeType="String"/>
+        <attribute name="soundURL" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <attribute name="transcription" optional="YES" attributeType="String"/>
+        <attribute name="wordID" optional="YES" attributeType="Integer 64" usesScalarValueType="NO"/>
+        <relationship name="definition" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Definition"/>
+        <relationship name="examples" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Definition"/>
+        <relationship name="translation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Translation" inverseName="meaning" inverseEntity="Translation"/>
+    </entity>
+    <entity name="Translation" representedClassName="Translation" syncable="YES" codeGenerationType="category">
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <relationship name="meaning" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meaning" inverseName="translation" inverseEntity="Meaning"/>
+    </entity>
+    <entity name="WordInfo" representedClassName=".WordInfo" syncable="YES" codeGenerationType="category">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+        <relationship name="meanings" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Meaning"/>
+        <relationship name="wordLists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WordList" inverseName="words" inverseEntity="WordList"/>
+    </entity>
+    <entity name="WordList" representedClassName=".WordList" syncable="YES" codeGenerationType="category">
+        <attribute name="color" optional="YES" attributeType="Binary"/>
+        <attribute name="create" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="typeId" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="words" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WordInfo" inverseName="wordLists" inverseEntity="WordInfo"/>
+    </entity>
+    <elements>
+        <element name="Definition" positionX="-411.9453125" positionY="181.078125" width="128" height="73"/>
+        <element name="Meaning" positionX="-731.44140625" positionY="287.9609375" width="128" height="178"/>
+        <element name="Translation" positionX="-380.59765625" positionY="514.5625" width="128" height="88"/>
+        <element name="WordInfo" positionX="-573.078125" positionY="12.33203125" width="128" height="103"/>
+        <element name="WordList" positionX="-329.6796875" positionY="-153.75390625" width="128" height="133"/>
+    </elements>
+</model>

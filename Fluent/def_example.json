@@ -1,0 +1,231 @@
+
+
+    {
+        "id": "1",
+        "wordId": 16377,
+        "difficultyLevel": null,
+        "partOfSpeechCode": "n",
+        "prefix": null,
+        "text": "fawn",
+        "soundUrl": "\/\/d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=fawn",
+        "transcription": "f\u0254\u02d0n",
+        "properties": {},
+        "updatedAt": "2020-05-14 15:48:07",
+        "mnemonics": null,
+        "translation": {
+            "text": "\u0436\u0435\u043b\u0442\u043e-\u043a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439 \u0446\u0432\u0435\u0442",
+            "note": null
+        },
+        "images": [
+            {
+                "url": "\/\/d2zkmv5t5kao9.cloudfront.net\/images\/2d8741ce4e8c943d40ba5690915be57e.jpeg?w=200&q=50"
+            }
+        ],
+        "definition": {
+            "text": "A colour or pigment varying around a light grey-brown colour.",
+            "soundUrl": "\/\/d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=a+colour+or+pigment+varying+around+a+light+grey-brown+colour"
+        },
+        "examples": [
+            {
+                "text": "My [fawn] coat merges with wheat.",
+                "soundUrl": "\/\/d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=My+fawn+coat+merges+with+wheat."
+            },
+            {
+                "text": "[fawn] dry leaves in autumn.",
+                "soundUrl": "\/\/d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=fawn+dry+leaves+in+autumn"
+            },
+            {
+                "text": "When we did a show we wore the light [fawn] jacket as worn by drivers and conductors during the summer.",
+                "soundUrl": "\/\/d2fmfepycn0xw0.cloudfront.net?gender=male&accent=british&text=When+we+did+a+show+we+wore+the+light+fawn+jacket+as+worn+by+drivers+and+conductors+during+the+summer."
+            }
+        ],
+        "meaningsWithSimilarTranslation": [
+            {
+                "meaningId": 1,
+                "frequencyPercent": "100.0",
+                "partOfSpeechAbbreviation": "\u0441\u0443\u0449.",
+                "translation": {
+                    "text": "\u0436\u0435\u043b\u0442\u043e-\u043a\u043e\u0440\u0438\u0447\u043d\u0435\u0432\u044b\u0439 \u0446\u0432\u0435\u0442",
+                    "note": null
+                }
+            },
+            {
+                "meaningId": 2,
+                "frequencyPercent": "0.0",
+                "partOfSpeechAbbreviation": "\u0441\u0443\u0449.",
+                "translation": {
+                    "text": "\u043e\u043b\u0435\u043d\u0435\u043d\u043e\u043a",
+                    "note": ""
+                }
+            },
+            {
+                "meaningId": 5,
+                "frequencyPercent": "0.0",
+                "partOfSpeechAbbreviation": "\u0433\u043b.",
+                "translation": {
+                    "text": "\u0438\u043c\u0435\u0442\u044c \u0440\u043e\u0433\u0430",
+                    "note": null
+                }
+            },
+            {
+                "meaningId": 4,
+                "frequencyPercent": "0.0",
+                "partOfSpeechAbbreviation": "\u0433\u043b.",
+                "translation": {
+                    "text": "\u043f\u043e\u0434\u043b\u0438\u0437\u044b\u0432\u0430\u0442\u044c\u0441\u044f",
+                    "note": null
+                }
+            },
+            {
+                "meaningId": 3,
+                "frequencyPercent": "0.0",
+                "partOfSpeechAbbreviation": "\u0433\u043b.",
+                "translation": {
+                    "text": "\u0441\u0436\u0438\u043c\u0430\u0442\u044c\u0441\u044f",
+                    "note": null
+                }
+            }
+        ],
+        "alternativeTranslations": [
+            {
+                "text": "dais",
+                "translation": {
+                    "text": "\u043f\u043e\u043c\u043e\u0441\u0442",
+                    "note": null
+                }
+            },
+            {
+                "text": "flair",
+                "translation": {
+                    "text": "\u043e\u0441\u043e\u0431\u044b\u0439 \u0441\u0442\u0438\u043b\u044c",
+                    "note": null
+                }
+            },
+            {
+                "text": "melee",
+                "translation": {
+                    "text": "\u0440\u0443\u043a\u043e\u043f\u0430\u0448\u043d\u0430\u044f",
+                    "note": ""
+                }
+            },
+            {
+                "text": "volume",
+                "translation": {
+                    "text": "\u0433\u0440\u043e\u043c\u043a\u043e\u0441\u0442\u044c",
+                    "note": ""
+                }
+            },
+            {
+                "text": "take",
+                "translation": {
+                    "text": "\u0432\u044b\u0440\u0443\u0447\u043a\u0430",
+                    "note": ""
+                }
+            },
+            {
+                "text": "knoll",
+                "translation": {
+                    "text": "\u0445\u043e\u043b\u043c\u0438\u043a",
+                    "note": null
+                }
+            },
+            {
+                "text": "poncho",
+                "translation": {
+                    "text": "\u043f\u043e\u043d\u0447\u043e",
+                    "note": null
+                }
+            },
+            {
+                "text": "fedora",
+                "translation": {
+                    "text": "\u0444\u0435\u0442\u0440\u043e\u0432\u0430\u044f \u0448\u043b\u044f\u043f\u0430",
+                    "note": null
+                }
+            },
+            {
+                "text": "spleen",
+                "translation": {
+                    "text": "\u0441\u0435\u043b\u0435\u0437\u0435\u043d\u043a\u0430",
+                    "note": null
+                }
+            },
+            {
+                "text": "nicety",
+                "translation": {
+                    "text": "\u0443\u0442\u043e\u043d\u0447\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+                    "note": null
+                }
+            },
+            {
+                "text": "pack",
+                "translation": {
+                    "text": "\u0448\u0430\u0439\u043a\u0430",
+                    "note": ""
+                }
+            },
+            {
+                "text": "noun",
+                "translation": {
+                    "text": "\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0435",
+                    "note": null
+                }
+            },
+            {
+                "text": "tube",
+                "translation": {
+                    "text": "\u0442\u0440\u0443\u0431\u043a\u0430",
+                    "note": null
+                }
+            },
+            {
+                "text": "writ",
+                "translation": {
+                    "text": "\u043f\u0440\u0435\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u0435",
+                    "note": null
+                }
+            },
+            {
+                "text": "bridle",
+                "translation": {
+                    "text": "\u0443\u0437\u0434\u0430",
+                    "note": null
+                }
+            },
+            {
+                "text": "pansy",
+                "translation": {
+                    "text": "\u0430\u043d\u044e\u0442\u0438\u043d\u044b \u0433\u043b\u0430\u0437\u043a\u0438",
+                    "note": null
+                }
+            },
+            {
+                "text": "syntax",
+                "translation": {
+                    "text": "\u043f\u043e\u0440\u044f\u0434\u043e\u043a \u0441\u043b\u043e\u0432",
+                    "note": null
+                }
+            },
+            {
+                "text": "break",
+                "translation": {
+                    "text": "\u0441\u0435\u0440\u0438\u044f \u0443\u0434\u0430\u0447\u043d\u044b\u0445 \u0443\u0434\u0430\u0440\u043e\u0432",
+                    "note": ""
+                }
+            },
+            {
+                "text": "bodice",
+                "translation": {
+                    "text": "\u043a\u043e\u0440\u0441\u0430\u0436",
+                    "note": null
+                }
+            },
+            {
+                "text": "three",
+                "translation": {
+                    "text": "\u0442\u0440\u0438",
+                    "note": "\u0433\u043e\u0434\u0430; \u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0435"
+                }
+            }
+        ]
+    }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+        "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>name</key>
+            <string>Inbox</string>
+            <key>image</key>
+            <string>blue.inbox</string>
+            <key>typeId</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>typeId</key>
+            <integer>0</integer>
+            <key>image</key>
+            <string>blue.calendar</string>
+            <key>name</key>
+            <string>Today</string>
+        </dict>
+        <dict>
+            <key>typeId</key>
+            <integer>0</integer>
+            <key>image</key>
+            <string>calendar</string>
+            <key>name</key>
+            <string>Calendar</string>
+        </dict>
+        <dict>
+            <key>typeId</key>
+            <integer>0</integer>
+            <key>image</key>
+            <string>calendar.badge.minus</string>
+            <key>name</key>
+            <string>Upcoming</string>
+        </dict>
+        <dict>
+            <key>typeId</key>
+            <integer>1</integer>
+            <key>image</key>
+            <string>plus-black</string>
+            <key>name</key>
+            <string>Add More</string>
+        </dict>
+    </array>
+</plist>
